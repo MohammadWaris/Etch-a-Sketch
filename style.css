@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite", sans-serif;
+    background-color: lightblue;
+    text-align: center;
+
+}
+h1{
+    margin: 50px 0px;
+}
+
+.container{
+    width:960px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin:0 auto
+}
+.box{
+    border:1px solid blck;
+    width:150px;
+    height:150px;
+    background-color: dodgerblue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;;
+}
+.box:hover{
+    opacity: 0.8;
+}
+button{
+    padding:10px 20px;
+    border-radius: 10px;
+    margin:20px 0px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
